@@ -1,0 +1,386 @@
+{
+  "daily_budget": 2000.0,
+  "start_day": 61,
+  "end_day": 90,
+  "min_deliver_dollars": 1.0,
+  "delivery_rate": 0.9099020350757748,
+  "delivery_noise_cv": 0.04,
+  "impression_noise_cv": 0.08,
+  "roas_noise_cv": 0.15,
+  "attribution_lag_days": 7,
+  "reported_fraction_by_age": {
+    "1": 0.2,
+    "2": 0.35,
+    "3": 0.5,
+    "4": 0.65,
+    "5": 0.78,
+    "6": 0.9,
+    "7": 1.0
+  },
+  "population_prior": {
+    "roas": 1.4394946322764408,
+    "ctr": 0.01785,
+    "impressions_per_dollar": 77.66382626249981,
+    "aov": 59.415000000000006
+  },
+  "creatives": {
+    "AD01": {
+      "roas": 3.4104077903568917,
+      "ctr": 0.023000000000000007,
+      "impressions_per_dollar": 92.98185997249985,
+      "aov": 32.260000000000005,
+      "source": "settled_days_1_45"
+    },
+    "AD02": {
+      "roas": 2.5867718464595786,
+      "ctr": 0.008600000000000002,
+      "impressions_per_dollar": 70.90421569464337,
+      "aov": 76.35999999999997,
+      "source": "settled_days_1_45"
+    },
+    "AD03": {
+      "roas": 2.2767671232570343,
+      "ctr": 0.0235,
+      "impressions_per_dollar": 79.43006996477288,
+      "aov": 44.779999999999994,
+      "source": "settled_days_1_45"
+    },
+    "AD04": {
+      "roas": 0.41798875906386007,
+      "ctr": 0.009999999999999998,
+      "impressions_per_dollar": 83.07147173359445,
+      "aov": 40.339999999999996,
+      "source": "settled_days_1_45"
+    },
+    "AD05": {
+      "roas": 0.5779777370970506,
+      "ctr": 0.0237,
+      "impressions_per_dollar": 75.64320320916175,
+      "aov": 48.46,
+      "source": "settled_days_1_45"
+    },
+    "AD06": {
+      "roas": 0.6276833527830638,
+      "ctr": 0.017399999999999995,
+      "impressions_per_dollar": 80.71262597865231,
+      "aov": 40.15,
+      "source": "settled_days_1_45"
+    },
+    "AD07": {
+      "roas": 1.4091691961768495,
+      "ctr": 0.022799999999999997,
+      "impressions_per_dollar": 78.90521436444169,
+      "aov": 59.269999999999996,
+      "source": "settled_days_1_45"
+    },
+    "AD08": {
+      "roas": 1.9199053973059084,
+      "ctr": 0.0203,
+      "impressions_per_dollar": 98.98160502427932,
+      "aov": 59.87,
+      "source": "settled_days_1_45"
+    },
+    "AD09": {
+      "roas": 1.112238864924301,
+      "ctr": 0.010499999999999997,
+      "impressions_per_dollar": 61.87714411649911,
+      "aov": 83.17000000000002,
+      "source": "settled_days_1_45"
+    },
+    "AD10": {
+      "roas": 1.2283276710757653,
+      "ctr": 0.021399999999999995,
+      "impressions_per_dollar": 67.37875868102414,
+      "aov": 73.66,
+      "source": "settled_days_1_45"
+    },
+    "AD11": {
+      "roas": 1.2333511426108796,
+      "ctr": 0.020800000000000003,
+      "impressions_per_dollar": 97.98209067048711,
+      "aov": 85.22,
+      "source": "settled_days_1_45"
+    },
+    "AD12": {
+      "roas": 1.9525083526907363,
+      "ctr": 0.023099999999999996,
+      "impressions_per_dollar": 70.2338222447283,
+      "aov": 80.82000000000001,
+      "source": "settled_days_1_45"
+    },
+    "AD13": {
+      "roas": 1.8276220363603792,
+      "ctr": 0.0124,
+      "impressions_per_dollar": 80.00248037227577,
+      "aov": 43.23,
+      "source": "settled_days_1_45"
+    },
+    "AD14": {
+      "roas": 1.1762242683350368,
+      "ctr": 0.0187,
+      "impressions_per_dollar": 91.2331179589198,
+      "aov": 60.749999999999986,
+      "source": "settled_days_1_45"
+    },
+    "AD15": {
+      "roas": 1.6931648381908786,
+      "ctr": 0.0104,
+      "impressions_per_dollar": 75.88755989495384,
+      "aov": 67.88000000000004,
+      "source": "settled_days_1_45"
+    },
+    "AD16": {
+      "roas": 1.0518297548567774,
+      "ctr": 0.008999999999999996,
+      "impressions_per_dollar": 93.0822841657032,
+      "aov": 42.62999999999999,
+      "source": "settled_days_1_45"
+    },
+    "AD17": {
+      "roas": 1.0157733001751257,
+      "ctr": 0.015500000000000002,
+      "impressions_per_dollar": 82.54428772408701,
+      "aov": 50.93999999999999,
+      "source": "settled_days_1_45"
+    },
+    "AD18": {
+      "roas": 1.0736129852512952,
+      "ctr": 0.018500000000000003,
+      "impressions_per_dollar": 66.94631358768196,
+      "aov": 61.95000000000001,
+      "source": "settled_days_1_45"
+    },
+    "AD19": {
+      "roas": 0.9439897888491956,
+      "ctr": 0.018300000000000007,
+      "impressions_per_dollar": 62.51965862227949,
+      "aov": 28.770000000000003,
+      "source": "settled_days_1_45"
+    },
+    "AD20": {
+      "roas": 1.7921715950156603,
+      "ctr": 0.015600000000000013,
+      "impressions_per_dollar": 66.58357675440861,
+      "aov": 30.369999999999987,
+      "source": "settled_days_1_45"
+    },
+    "AD21": {
+      "roas": 1.1294439678322028,
+      "ctr": 0.023700000000000002,
+      "impressions_per_dollar": 78.56058701398887,
+      "aov": 78.18,
+      "source": "settled_days_1_45"
+    },
+    "AD22": {
+      "roas": 1.4389952971937,
+      "ctr": 0.0109,
+      "impressions_per_dollar": 65.82950358096787,
+      "aov": 52.259999999999984,
+      "source": "settled_days_1_45"
+    },
+    "AD23": {
+      "roas": 1.547188504364752,
+      "ctr": 0.0135,
+      "impressions_per_dollar": 64.61396635520059,
+      "aov": 68.86000000000001,
+      "source": "settled_days_1_45"
+    },
+    "AD24": {
+      "roas": 0.9693357684004658,
+      "ctr": 0.014600000000000002,
+      "impressions_per_dollar": 77.07644336190633,
+      "aov": 43.97999999999999,
+      "source": "settled_days_1_45"
+    },
+    "AD25": {
+      "roas": 1.4895454420136418,
+      "ctr": 0.013500000000000007,
+      "impressions_per_dollar": 66.4723004563619,
+      "aov": 71.5,
+      "source": "settled_days_1_45"
+    },
+    "AD26": {
+      "roas": 1.8630704361507602,
+      "ctr": 0.014100000000000008,
+      "impressions_per_dollar": 84.70545735554721,
+      "aov": 86.90000000000002,
+      "source": "settled_days_1_45"
+    },
+    "AD27": {
+      "roas": 0.8966722905046741,
+      "ctr": 0.0185,
+      "impressions_per_dollar": 71.30823483470229,
+      "aov": 80.42,
+      "source": "settled_days_1_45"
+    },
+    "AD28": {
+      "roas": 1.9607108221767313,
+      "ctr": 0.0195,
+      "impressions_per_dollar": 77.62881176802,
+      "aov": 51.40999999999999,
+      "source": "settled_days_1_45"
+    },
+    "AD29": {
+      "roas": 1.5177753556463986,
+      "ctr": 0.0211,
+      "impressions_per_dollar": 57.80265913034989,
+      "aov": 40.65999999999998,
+      "source": "settled_days_1_45"
+    },
+    "AD30": {
+      "roas": 1.272053732350727,
+      "ctr": 0.011599999999999997,
+      "impressions_per_dollar": 60.46519827195109,
+      "aov": 47.88000000000001,
+      "source": "settled_days_1_45"
+    },
+    "AD31": {
+      "roas": 1.6712224315175128,
+      "ctr": 0.0172,
+      "impressions_per_dollar": 102.30441204782566,
+      "aov": 59.56000000000002,
+      "source": "settled_days_1_45"
+    },
+    "AD32": {
+      "roas": 1.6881336025158882,
+      "ctr": 0.024300000000000006,
+      "impressions_per_dollar": 58.88895965593305,
+      "aov": 30.659999999999997,
+      "source": "settled_days_1_45"
+    },
+    "AD33": {
+      "roas": 0.9138055019457406,
+      "ctr": 0.02430000000000001,
+      "impressions_per_dollar": 82.12688499909112,
+      "aov": 74.59000000000002,
+      "source": "settled_days_1_45"
+    },
+    "AD34": {
+      "roas": 1.650490671513922,
+      "ctr": 0.023700000000000002,
+      "impressions_per_dollar": 77.69884075697962,
+      "aov": 57.15999999999999,
+      "source": "settled_days_1_45"
+    },
+    "AD35": {
+      "roas": 1.1909106348582534,
+      "ctr": 0.009499999999999998,
+      "impressions_per_dollar": 101.755646933688,
+      "aov": 72.08999999999999,
+      "source": "settled_days_1_45"
+    },
+    "AD36": {
+      "roas": 1.51417430932456,
+      "ctr": 0.020600000000000004,
+      "impressions_per_dollar": 57.640754338274675,
+      "aov": 77.79000000000002,
+      "source": "settled_days_1_45"
+    },
+    "AD37": {
+      "roas": 1.1964342076008863,
+      "ctr": 0.0166,
+      "impressions_per_dollar": 87.22018630868732,
+      "aov": 52.22999999999998,
+      "source": "settled_days_1_45"
+    },
+    "AD38": {
+      "roas": 1.4399939673591817,
+      "ctr": 0.0102,
+      "impressions_per_dollar": 99.26796375422174,
+      "aov": 76.54,
+      "source": "settled_days_1_45"
+    },
+    "AD39": {
+      "roas": 1.625122964567047,
+      "ctr": 0.024799999999999996,
+      "impressions_per_dollar": 80.90838022171951,
+      "aov": 70.92000000000002,
+      "source": "settled_days_1_45"
+    },
+    "AD40": {
+      "roas": 1.77824286069266,
+      "ctr": 0.014599999999999997,
+      "impressions_per_dollar": 75.0445977265766,
+      "aov": 28.889999999999997,
+      "source": "settled_days_1_45"
+    },
+    "AD41": {
+      "roas": 1.4394946322764408,
+      "ctr": 0.01785,
+      "impressions_per_dollar": 77.66382626249981,
+      "aov": 59.415000000000006,
+      "source": "population_median_prior"
+    },
+    "AD42": {
+      "roas": 1.4394946322764408,
+      "ctr": 0.01785,
+      "impressions_per_dollar": 77.66382626249981,
+      "aov": 59.415000000000006,
+      "source": "population_median_prior"
+    },
+    "AD43": {
+      "roas": 1.4394946322764408,
+      "ctr": 0.01785,
+      "impressions_per_dollar": 77.66382626249981,
+      "aov": 59.415000000000006,
+      "source": "population_median_prior"
+    },
+    "AD44": {
+      "roas": 1.4394946322764408,
+      "ctr": 0.01785,
+      "impressions_per_dollar": 77.66382626249981,
+      "aov": 59.415000000000006,
+      "source": "population_median_prior"
+    },
+    "AD45": {
+      "roas": 1.4394946322764408,
+      "ctr": 0.01785,
+      "impressions_per_dollar": 77.66382626249981,
+      "aov": 59.415000000000006,
+      "source": "population_median_prior"
+    },
+    "AD46": {
+      "roas": 1.4394946322764408,
+      "ctr": 0.01785,
+      "impressions_per_dollar": 77.66382626249981,
+      "aov": 59.415000000000006,
+      "source": "population_median_prior"
+    },
+    "AD47": {
+      "roas": 1.4394946322764408,
+      "ctr": 0.01785,
+      "impressions_per_dollar": 77.66382626249981,
+      "aov": 59.415000000000006,
+      "source": "population_median_prior"
+    },
+    "AD48": {
+      "roas": 1.4394946322764408,
+      "ctr": 0.01785,
+      "impressions_per_dollar": 77.66382626249981,
+      "aov": 59.415000000000006,
+      "source": "population_median_prior"
+    },
+    "AD49": {
+      "roas": 1.4394946322764408,
+      "ctr": 0.01785,
+      "impressions_per_dollar": 77.66382626249981,
+      "aov": 59.415000000000006,
+      "source": "population_median_prior"
+    },
+    "AD50": {
+      "roas": 1.4394946322764408,
+      "ctr": 0.01785,
+      "impressions_per_dollar": 77.66382626249981,
+      "aov": 59.415000000000006,
+      "source": "population_median_prior"
+    }
+  },
+  "notes": [
+    "Synthetic example. Not measured on a live account.",
+    "Per-creative roas, ctr, impressions_per_dollar, and aov are totals from data/daily_final.csv days 1-45.",
+    "Creatives with no settled spend use the median of the served creatives.",
+    "delivery_rate is total spend / total budget on data/daily_final.csv.",
+    "reported_fraction_by_age is reported revenue / final revenue by age on the morning of day 61.",
+    "Noise scales are the generator settings in data/example_settings.json; a single history does not identify them."
+  ]
+}

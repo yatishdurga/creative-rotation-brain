@@ -1,0 +1,16 @@
+{
+  "daily_budget": 2000.0,
+  "start_day": 61,
+  "end_day": 90,
+  "history_days": 60,
+  "settled_through_day": 45,
+  "attribution_lag_days": 7,
+  "min_deliver_dollars": 1.0,
+  "generative_delivery_rate": 0.91,
+  "delivery_noise_cv": 0.04,
+  "impression_noise_cv": 0.08,
+  "roas_noise_cv": 0.15,
+  "generative_seed": 20260318,
+  "n_creatives": 50,
+  "n_served": 40
+}

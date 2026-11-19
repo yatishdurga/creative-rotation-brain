@@ -1,0 +1,24 @@
+paired_seeds= [7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83]
+n_seeds=20 bootstrap=5000 bootstrap_seed=20260318
+config=sim/config.json
+Policy shrink_spend=0.0 (DEFAULT_SHRINK_SPEND=0.0)
+Policy test_budget_fraction=0.1
+returns: linear
+
+Mean 30-day revenue and mean daily top-5 allocation share
+policy                 mean_revenue  mean_top5_share
+Policy                     88847.60           0.1777
+B1_uniform                 79228.77           0.1000
+B2_windowed_greedy        116312.66           0.7500
+Clairvoyant               185667.85           1.0000
+
+Paired revenue differences (seed-level bootstrap 95% CI)
+contrast                        mean_diff       ci_low      ci_high
+Policy - B1                       9618.83      9544.21      9690.89
+Policy - B2                     -27465.06    -27883.67    -27028.25
+B2 - B1                          37083.89     36606.70     37549.30
+Clairvoyant - B1                106439.07    104687.37    108099.01
+Clairvoyant - Policy             96820.25     95104.06     98467.90
+
+headroom_ratio_vs_clairvoyant (Policy-B1)/(clairvoyant-B1): 0.0904
+Clairvoyant (linear): 100% to the best expected-return ad by config creatives.*.roas after delivery rules; ignores history. See sim/clairvoyant.py.
